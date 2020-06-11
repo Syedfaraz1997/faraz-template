@@ -1,0 +1,659 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  /**  font-family: 'Montserrat', sans-serif;
+  //  font-family: 'Poppins', sans-serif;**/
+
+}
+
+a{ text-decoration: none0;}
+a:hover{ text-decoration: none0;}
+li{ list-style: none;}
+li:hover{list-style:none;}
+
+
+p{ font-size:0.9rem;
+	line-height:1.5;
+	font-weight:400;
+	color:#999;	
+
+}
+i{
+    color: #2fccd0;
+}
+.extra-div h2, .servicediv h2{
+    font-size:0.9rem;
+    line-height:1.1;
+    font-weight: bold;
+    margin:10px 0 15px 0;
+    word-spacing: 4px;
+
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,168,255,0.3) , rgba(0,168,255,0.3) ) ,url(../images/Slider4.jpg);
+    background-size: 100% 100%;;
+    background-repeat: no-repeat;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+    position: relative;
+}
+
+.navbar{
+   
+}
+/*
+
+.header:before{
+    content: "";
+    position: absolute;
+    top:0%;
+    right: 0%;
+    left:0%;
+    bottom: 0%;
+    background: linear-gradient(to right, #1e5799 0% , #3ccdbb 0%, #16c9f6 100%);
+    z-index: -1;
+    opacity: 0.1;
+
+}
+
+/*.navbar:before{
+    content: "";
+    position: absolute;
+    top:0%;
+    right: 0%;
+    left:0%;
+    bottom: 0%;
+    background: linear-gradient(to right, #1e5799 0% , #3ccdbb 0%, #16c9f6 100%);
+    z-index: -1;
+    opacity: 0.3;
+
+}*/
+
+.nav-item a{
+    color: antiquewhite !important;
+    font-weight: bold;
+    
+}
+.header-section{
+	width:100%;
+	height:inherit;
+	color:#FFF;
+	position:relative;
+	text-align:center;
+	}
+
+.Centre-div{
+	width:100%;
+	height:auto;
+    position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	}
+
+
+.header-button a{
+    border-color: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding:12px 35px;
+    color:#fff;
+    font-size:1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    outline: none;
+    text-align:center;
+    
+
+
+}
+
+.header-button a:hover{
+    color: #50d1c0;
+    background-color:white;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    text-decoration:none;
+   
+
+}
+
+.Centre-div p{
+
+
+        color:white;
+        font-size:1.3rem;
+        padding: 0 10px 0 20px ;
+        
+
+}
+
+/** ************************ Extra Div Started******************/
+
+.header-extradiv
+{
+    height:auto;
+    width:100%;
+    margin:100px 0px;
+    text-align:center;
+    
+
+}
+.extra-div
+{
+    background-color: #fff;
+    border: medium none;
+    padding:50px !important;
+    border-radius: 3px;
+    transition: 0.6s ease;
+
+}
+
+.extra-div:hover{
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    transform:translateY(-20px);
+}
+
+
+
+
+/** ************************ Extra Div End ********************/
+
+
+
+/** ************************ Offer Div End ********************/
+
+
+.serviceoffers{
+
+    background-color: #f7f7f9;
+    padding:50px 0;
+    margin-bottom: 50px;
+
+}
+
+.headings{
+    margin:50px;
+
+}
+
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.names h2{
+    color: #2e2e2e;
+    font-size: 1rem;
+    text-transform: capitalize;
+    
+
+}
+
+.servic-icon{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top:3%;
+
+}
+.progress{
+    height:0.8rem !important;
+    margin-bottom: 25px;
+
+}
+
+
+
+/** ************************ Offer Div End ********************/
+
+
+
+/** ************************ Counter  Div is Started ********************/
+
+
+.Project-work{
+    margin:100px 0;
+
+
+}
+
+.Project-work{
+    font-size:2rem;
+
+}
+
+/** ************************ Counter  Div is Ended   ********************/
+
+
+
+/** ************************ Pricind Card  Div is Started   ********************/
+
+
+.pricing
+{
+    width:100%;
+    height:auto;
+    padding:50px;
+    position: relative;
+
+}
+
+.pricing:before{
+    content: "";
+    position: absolute;
+    top:0%;
+    right: 0%;
+    left:0%;
+    bottom: 0%;
+    background: linear-gradient(160deg , #16c9f6 55%, #fff 0%);
+    z-index: -1;
+    
+
+}
+
+.money{
+    font-size: 40px;
+    line-height: 1px;
+    color:#606060;
+
+}
+
+.card{
+    transition: 0.7s ease;
+
+}
+
+.card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background:#fff !important;
+    padding:25px 9 !important; 
+
+
+}
+
+.card-body{
+    padding:25px 0 !important;
+
+}
+
+.card-body li{
+    margin:10px 0;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height:1.6;
+    color: #606060;
+
+}
+
+.card-footer{
+    background:white !important;
+    padding:30px 0px !important;
+}
+
+
+
+.card-footer a{
+    border-color: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding:12px 35px;
+    color:#50d1c0;
+    font-size:1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    outline: none;
+    text-align:center;
+    
+
+
+}
+
+.card:hover .card-footer a{
+    color: white;
+    background-color:#50d1c0;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    text-decoration:none;
+   
+
+}
+
+.card:hover{
+    transform: translateY(-30px);
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+
+}
+
+
+.card:hover .card-header, .card:hover .money{
+    color:#50d1c0; 
+
+}
+
+
+.Second-card{
+    transform: translateY(-30px);
+}
+
+
+
+
+
+/** ************************ Pricind Card  Div is Ended   ********************/
+
+
+/** ************************ FecultyMember  Div is Started   ********************/
+
+.FecultyMember{
+    width:100%;
+    height: auto;
+    padding:80px 0px;
+
+}
+
+.box{
+    text-align:center;
+    border:1px solid rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+    border-radius:2px;
+    transition:0.3s ease;
+}
+
+.box:hover{
+    background-color: #16c9f6;
+
+}
+
+.box:hover p{
+    color:white;
+
+}
+
+
+.carousel-indicators{
+    position:absolute;
+    right:0;
+    bottom:-60px !important;
+}
+
+
+.carousel-indicators li{
+    background-color:#16c9f6 !important;
+}
+
+.box a{
+    position: relative;
+
+}
+
+.box a img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin-top: 20px;
+
+}
+
+.box a:after{
+    content:"\f10d";
+    font-family: fontAwesome;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #1e5799 0% , #3ccdbb 0%, #16c9f6 100%);
+    color:white;position:absolute;
+    top:120%;
+    left:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box h1{
+    font-size:18px;
+    font-weight: 400;
+    color:#000000;
+    margin-bottom: 10px;
+
+}
+
+.box ul li{
+    text-decoration: none;
+    line-height:2.6 !important;
+    font-size:18px;
+    font-weight: 1000;
+    color:#000000;
+    margin-bottom: 20px;
+    border-bottom: 2px solid orangered;
+        
+
+
+}
+
+
+
+
+/** ************************ FecultyMember  Div is Ended   ********************/
+
+
+
+
+/** ************************ Contact Us  Div is Started   ********************/
+.ContactUs{
+    width:100%;
+    height:100vh;
+    padding:80px 0px;
+    position: relative;
+    margin-top: 140px;
+}
+
+
+.ContactUs:before{
+    content: "";
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right: 0;
+    background: linear-gradient(330deg , #16c9f6 55%, #fff 0% );
+    z-index:-1;
+}
+
+
+.for-button button{
+    border-color: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding:12px 35px;
+    color:gray;
+    font-size:1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    outline: none;
+    text-align:center;
+    background:transparent;
+    
+
+}
+
+form:hover .for-button button{
+    background-color: white ;
+    color:#16c9f6;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+
+
+}
+
+::placeholder{
+    font-size: 0.8rem;
+}
+
+
+
+/** ************************ Contact Us  Div is Ended   ********************/
+
+/** ************************ Subscribe  is Started  ********************/
+.Subscribe{
+    width:100%;
+    height:auto;
+    margin:80px auto;
+
+}
+
+.subscribe-input{
+    border-radius: 100px 0px 0px 100px !important;
+    min-width:150px;
+    min-height: 45px;
+}
+
+
+
+.subscribe-bten{
+    background-color:#16c9f6 !important;
+    color:white !important;
+    border-radius: 0px 100px 100px 0px !important;
+    min-width: 140px;
+    min-height: 45px;
+}
+
+
+
+
+/** ************************ Subscribe  is Ended   ********************/
+
+
+/** ************************ Footer   is Started  ********************/
+
+
+.footersection{
+    background-color: #16c9f6;
+    color:white;
+    height: auto;
+    width:100%;
+    text-align: center;
+    padding :80px 0px;
+    position: relative;
+
+
+}
+
+
+.footersection h3{
+    color:#1e5799   ;    
+    font-size:1.6rem ;
+    line-height: 2;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+
+}
+
+
+.footersection p{
+    color:white;    
+    font-size:0.9rem ;
+    line-height: 1.8;
+    font-weight: 400;
+    color:#fff;
+
+}
+
+.footersection li a{
+    font-size:0.9rem ;
+    line-height: 1.6;
+    font-weight: 400;
+    color:#fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+      
+
+
+}
+
+.footersection li a:hover{
+    background-color: #50d1c0 !important;
+      
+
+
+}
+
+
+
+.iccen{
+	margin-top:8px;
+
+
+
+}
+.iccoo{
+	padding: 1%;
+	background-color:#316DC3;
+	color:white;
+	border-radius: 50%;
+
+}
+.iccoo:hover{
+	padding: 1%;
+	background-color:#50d1c0;
+	color:white;
+	border-radius: 50%;
+
+}
+
+.copyRight{
+    width:100%;
+    height:auto;
+    color:white;
+    background-color: black;
+    text-shadow: 0px 10px 5px rgba(0,0,0,0.4);
+
+}
+
+.copyRight h4{
+    margin-top: 2px;
+    padding:10px 0px;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+   
+
+}
+
+
+#mybtn{
+   display: none;
+    position: fixed;
+    bottom:40px;
+    right:40px;
+    z-index: 99;
+    opacity: 0.5;
+    color:white;
+    border:none;
+    background-color: #50d1c0 !important;
+    padding:10px;
+    border-radius: 10px;
+
+}
+
+#mybtn:hover{
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+/** ************************ Footer   is Ended   ********************/
